@@ -1,0 +1,114 @@
+/* Research-area cards on the front page (_pages/about.md, data in _data/research_areas.yml).
+   Colours use the theme's --global-* variables so light/dark mode both work. */
+
+/* Home page: capitalize the theme's lowercase section headings ("news", "selected publications") */
+h2::first-letter {
+  text-transform: uppercase;
+}
+
+.research-areas {
+  clear: both; /* start below the floated profile picture */
+  padding-top: 1rem;
+}
+
+.research-areas .ra-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.research-areas .ra-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.6rem;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  text-decoration: none;
+  transition:
+    border-color 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.research-areas .ra-card:hover {
+  border-color: var(--global-theme-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+}
+
+/* Vignette: same frame for every card; figures are fitted inside on white (they have white backgrounds) */
+.research-areas .ra-media {
+  aspect-ratio: 2.8 / 1;
+  margin: -0.3rem -0.4rem 0.2rem;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.research-areas .ra-media img,
+.research-areas .ra-media video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.research-areas .ra-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.research-areas .ra-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.45rem;
+  color: var(--global-theme-color);
+  background-color: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+}
+
+.research-areas .ra-title {
+  flex: 1;
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.research-areas .ra-chevron {
+  color: var(--global-text-color-light);
+  font-size: 0.8rem;
+}
+
+.research-areas .ra-card:hover .ra-chevron {
+  color: var(--global-theme-color);
+}
+
+.research-areas .ra-desc {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+}
+
+.research-areas .ra-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: auto;
+}
+
+.research-areas .ra-tag {
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  border: 1px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+}

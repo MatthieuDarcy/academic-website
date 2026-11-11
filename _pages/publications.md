@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description:
 nav: true
 nav_order: 1
@@ -15,12 +15,6 @@ nav_order: 1
 
 <div class="publications">
 
-<h2>preprints</h2>
-
-{% bibliography --query @misc %}
-
-<h2>journal articles</h2>
-
-{% bibliography --query @article %}
+{% bibliography %}
 
 </div>

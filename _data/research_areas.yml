@@ -1,0 +1,27 @@
+# Research-area cards shown on the front page (rendered in _pages/about.md).
+# `icon` is a Font Awesome class; `url` is the permalink of the detail page in _pages/research/.
+# Vignette: set `image` (path under assets/), or `video` plus a `poster` image shown while it loads.
+- title: Dynamical Systems
+  icon: fa-solid fa-wave-square
+  url: /research/dynamical-systems/
+  video: /assets/video/vortex-tubes.mp4
+  poster: /assets/img/research/vortex-tubes-poster.jpg
+  alt: Navier-Stokes vortex tubes, true state, observation and filtered estimate
+  description: PLACEHOLDER TEXT
+  tags: [SDEs, Kernel Flows, Data Assimilation]
+
+- title: Operator Learning
+  icon: fa-solid fa-diagram-project
+  url: /research/operator-learning/
+  image: /assets/img/research/operator-learning.png
+  alt: Input and output fields of a learned operator
+  description: PLACEHOLDER TEXT
+  tags: [Gaussian Processes, Kernel Methods, Neural Operators]
+
+- title: PDEs & Numerical Analysis
+  icon: fa-solid fa-square-root-variable
+  url: /research/pdes-numerical-analysis/
+  image: /assets/img/research/pdes.png
+  alt: Predicted solution of a roughly forced PDE, as a surface and a heatmap
+  description: PLACEHOLDER TEXT
+  tags: [Rough PDEs, Kernel Solvers, Error Analysis]

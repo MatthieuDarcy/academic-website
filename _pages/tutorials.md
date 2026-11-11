@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /tutorials/
-title: tutorials
+title: Tutorials
 description:
 nav: true
 nav_order: 3

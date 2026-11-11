@@ -1,14 +1,15 @@
 ---
 layout: page
 permalink: /talks/
-title: talks
-description: talks, posters and presentations
+title: Talks
+description: Talks, posters and presentations
 nav: true
 nav_order: 2
 ---
 
 #### 2026
 
+- "Dynestyx: A probabilistic programming library for dynamical systems", [Mathematical and Computational Foundations of Digital Twins](https://digital-twins.sciencesconf.org/), Institut d'Études Scientifiques de Cargèse (IESC), November 2026 ([slides]({{ '/assets/pdf/cargese_dynestyx_slides.pdf' | relative_url }})).
 - "Gaussian Processes for Operator Learning: from Surrogates to Machine Precision", SIAM Conference on Uncertainty Quantification (UQ26).
 - "Machine Learning for partial differential equations: solvers and operator learning", [PLATON - INRIA and Polytechnique](https://www.inria.fr/en/platon).
 

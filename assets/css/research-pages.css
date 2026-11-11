@@ -1,0 +1,32 @@
+/* Research-area detail pages (_pages/research/*.md).
+   Larger publication thumbnails for selected entries. Only on screens wide enough for the
+   side-by-side layout (below 576px the thumbnail stacks above the text anyway). */
+
+@media (min-width: 576px) {
+  /* PDE page: thumbnails 25% larger. The column is fixed-width, so the image grows leftwards
+     (into the page margin) and the paper text stays aligned with the other entries. */
+  .publications .abbr:has(+ #baptista2026rough) .preview,
+  .publications .abbr:has(+ #yang2025functional) .preview {
+    width: 125%;
+    max-width: none;
+    margin-left: -25%;
+  }
+
+  /* Operator-learning page: a wider thumbnail column (25% of the row instead of 2/12),
+     and the same box size for every figure, each fitted inside on white. */
+  .publications .abbr:has(+ #batlle2024kernel),
+  .publications .abbr:has(+ #operator-tutorial),
+  .publications .abbr:has(+ #bacho2025machine) {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .publications .abbr:has(+ #batlle2024kernel) .preview,
+  .publications .abbr:has(+ #operator-tutorial) .preview,
+  .publications .abbr:has(+ #bacho2025machine) .preview {
+    aspect-ratio: 2.8 / 1;
+    height: auto;
+    object-fit: contain;
+    background-color: #fff;
+  }
+}
