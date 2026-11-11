@@ -13,7 +13,7 @@
 - title: Operator Learning
   icon: fa-solid fa-diagram-project
   url: /research/operator-learning/
-  image: /assets/img/research/operator-learning.png
+  image: /assets/img/research/operator-learning-v2.png
   alt: Input and output fields of a learned operator
   description: PLACEHOLDER TEXT
   tags: [Gaussian Processes, Kernel Methods, Neural Operators]

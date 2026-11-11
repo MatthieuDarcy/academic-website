@@ -6,7 +6,7 @@ subtitle: Machine Learning Research Scientist, <a href='https://www.basis.ai/'>B
 
 profile:
   align: right
-  image: prof_pic.png
+  image: profile-photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>New York, NY</p>
