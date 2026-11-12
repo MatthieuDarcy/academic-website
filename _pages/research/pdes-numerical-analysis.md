@@ -6,7 +6,7 @@ description:
 nav: false
 ---
 
-PLACEHOLDER TEXT
+I develop principled algorithms for PDEs that are out of reach of classical solvers, such as equations with rough forcing and functional PDEs posed on infinite-dimensional spaces. These kernel, Gaussian process and neural network methods come with convergence guarantees.
 
 <link rel="stylesheet" href="{{ '/assets/css/research-pages.css' | relative_url | bust_file_cache }}">
 

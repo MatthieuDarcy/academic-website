@@ -7,7 +7,7 @@
   video: /assets/video/vortex-tubes.mp4
   poster: /assets/img/research/vortex-tubes-poster.jpg
   alt: Navier-Stokes vortex tubes, true state, observation and filtered estimate
-  description: PLACEHOLDER TEXT
+  description: Simulation, learning and control in dynamical systems.
   tags: [SDEs, Kernel Flows, Data Assimilation]
 
 - title: Operator Learning
@@ -15,7 +15,7 @@
   url: /research/operator-learning/
   image: /assets/img/research/operator-learning-v2.png
   alt: Input and output fields of a learned operator
-  description: PLACEHOLDER TEXT
+  description: Learning maps between infinite-dimensional spaces.
   tags: [Gaussian Processes, Kernel Methods, Neural Operators]
 
 - title: PDEs & Numerical Analysis
@@ -23,5 +23,5 @@
   url: /research/pdes-numerical-analysis/
   image: /assets/img/research/pdes.png
   alt: Predicted solution of a roughly forced PDE, as a surface and a heatmap
-  description: PLACEHOLDER TEXT
+  description: Principled algorithms for PDEs with rough forcing or in infinite dimensions.
   tags: [Rough PDEs, Kernel Solvers, Error Analysis]

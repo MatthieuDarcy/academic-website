@@ -6,7 +6,7 @@ description:
 nav: false
 ---
 
-PLACEHOLDER TEXT
+I study methods for learning maps between infinite-dimensional function spaces, such as the solution operators of PDEs. These models serve as fast surrogates for expensive simulations in engineering and the sciences, from design and uncertainty quantification to many-query and real-time settings, and can be pushed to machine precision.
 
 <link rel="stylesheet" href="{{ '/assets/css/research-pages.css' | relative_url | bust_file_cache }}">
 

@@ -6,7 +6,7 @@ description:
 nav: false
 ---
 
-PLACEHOLDER TEXT
+I develop and implement algorithms to simulate, learn and control dynamical systems: inferring their states and parameters from noisy, partial observations, and choosing actions that steer them toward a goal. With Dynestyx, our open-source probabilistic programming library, a model is written once and can then be simulated, filtered, smoothed, calibrated or controlled, across discrete- and continuous-time, deterministic and stochastic systems.
 
 #### Relevant research
 
