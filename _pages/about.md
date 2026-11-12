@@ -27,7 +27,7 @@ I am a machine learning research scientist at the [Basis Research Institute](htt
 
 I obtained my PhD in Computing and Mathematical Sciences from Caltech, where I was advised by [Houman Owhadi](http://users.cms.caltech.edu/~owhadi/index.htm).
 
-[CV](https://github.com/MatthieuDarcy/AcademicRepo/blob/main/CV/CV_matthieu_darcy.pdf?raw=true) · [Google Scholar](https://scholar.google.com/citations?user=_KSmKigAAAAJ&hl=en)
+[CV]({{ '/assets/pdf/CV_matthieu_darcy.pdf' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=_KSmKigAAAAJ&hl=en)
 
 <!-- Research areas: cards are generated from _data/research_areas.yml -->
 <link rel="stylesheet" href="{{ '/assets/css/research-areas.css' | relative_url | bust_file_cache }}">

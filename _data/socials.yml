@@ -1,8 +1,8 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: https://github.com/MatthieuDarcy/AcademicRepo/blob/main/CV/CV_matthieu_darcy.pdf?raw=true # path to your CV PDF file
-email: mdarcy@caltech.edu # your email address
+cv_pdf: /assets/pdf/CV_matthieu_darcy.pdf # path to your CV PDF file
+email: matthieu@basis.ai # your email address
 scholar_userid: _KSmKigAAAAJ # your Google Scholar ID
 github_username: MatthieuDarcy # your GitHub user name
 linkedin_username: matthieu-darcy-88290a18a # your LinkedIn user name
