@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Machine Learning Research Scientist, <a href='https://www.basis.ai/'>Basis Research Institute</a>
+subtitle: # shown in the bio below instead, so it sits beside the photo
 
 profile:
   align: left
@@ -22,6 +22,8 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
+<p class="desc">Machine Learning Research Scientist, <a href="https://www.basis.ai/">Basis Research Institute</a></p>
 
 I am a machine learning research scientist at the [Basis Research Institute](https://www.basis.ai/) in New York.
 
