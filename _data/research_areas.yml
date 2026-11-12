@@ -1,5 +1,6 @@
 # Research-area cards shown on the front page (rendered in _pages/about.md).
-# `icon` is a Font Awesome class; `url` is the permalink of the detail page in _pages/research/.
+# `icon` is a Font Awesome class, or use `icon_svg` (inline SVG markup, drawn with currentColor) for a custom icon;
+# `url` is the permalink of the detail page in _pages/research/.
 # Vignette: set `image` (path under assets/), or `video` plus a `poster` image shown while it loads.
 - title: Dynamical Systems
   icon: fa-solid fa-wave-square
@@ -19,7 +20,14 @@
   tags: [Gaussian Processes, Kernel Methods, Neural Operators]
 
 - title: PDEs & Numerical Analysis
-  icon: fa-solid fa-square-root-variable
+  # Left Riemann sum: four bars whose top-left corners lie on the curve
+  icon_svg: >-
+    <svg viewBox="0 0 24 24" width="1.15em" height="1.15em" fill="none" stroke="currentColor" stroke-width="1.6"
+    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <g fill="currentColor" fill-opacity="0.3" stroke-width="1.1">
+    <rect x="4" y="13.6" width="4" height="6.4"/><rect x="8" y="7.6" width="4" height="12.4"/>
+    <rect x="12" y="5.8" width="4" height="14.2"/><rect x="16" y="6.6" width="4" height="13.4"/>
+    </g><path d="M2.5 20h19"/><path d="M3 16C8 3 14 4 21 10"/></svg>
   url: /research/pdes-numerical-analysis/
   image: /assets/img/research/pdes.png
   alt: Predicted solution of a roughly forced PDE, as a surface and a heatmap

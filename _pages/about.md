@@ -52,7 +52,7 @@ I obtained my PhD in Computing and Mathematical Sciences from Caltech, where I w
           {% endif %}
         </div>
         <div class="ra-head">
-          <span class="ra-icon"><i class="{{ area.icon }}"></i></span>
+          <span class="ra-icon">{% if area.icon_svg %}{{ area.icon_svg }}{% else %}<i class="{{ area.icon }}"></i>{% endif %}</span>
           <h3 class="ra-title">{{ area.title }}</h3>
           <i class="fa-solid fa-chevron-right ra-chevron"></i>
         </div>
