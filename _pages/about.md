@@ -5,8 +5,8 @@ permalink: /
 subtitle: Machine Learning Research Scientist, <a href='https://www.basis.ai/'>Basis Research Institute</a>
 
 profile:
-  align: right
-  image: profile-photo.jpg
+  align: left
+  image: profile-photo-2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>New York, NY</p>
