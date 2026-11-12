@@ -23,8 +23,6 @@ latest_posts:
   enabled: false
 ---
 
-<p class="desc">Machine Learning Research Scientist, <a href="https://www.basis.ai/">Basis Research Institute</a></p>
-
 I am a machine learning research scientist at the [Basis Research Institute](https://www.basis.ai/) in New York.
 
 I obtained my PhD in Computing and Mathematical Sciences from Caltech, where I was advised by [Houman Owhadi](http://users.cms.caltech.edu/~owhadi/index.htm).
