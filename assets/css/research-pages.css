@@ -2,6 +2,40 @@
    Larger publication thumbnails for selected entries. Only on screens wide enough for the
    side-by-side layout (below 576px the thumbnail stacks above the text anyway). */
 
+/* Dynamical systems page: gallery of Dynestyx examples (video + short caption), three per row on wide screens */
+.dsx-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.dsx-gallery figure {
+  margin: 0;
+}
+
+.dsx-gallery video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2.4 / 1;
+  object-fit: contain;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  border: 1px solid var(--global-divider-color);
+}
+
+.dsx-gallery figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--global-text-color-light);
+}
+
+.dsx-gallery figcaption strong {
+  display: block;
+  color: var(--global-text-color);
+}
+
 @media (min-width: 576px) {
   /* PDE page: thumbnails 25% larger. The column is fixed-width, so the image grows leftwards
      (into the page margin) and the paper text stays aligned with the other entries. */
