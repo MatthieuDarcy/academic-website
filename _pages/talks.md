@@ -13,7 +13,7 @@ nav_order: 2
 - "Gaussian Processes for Operator Learning: from Surrogates to Machine Precision", SIAM Conference on Uncertainty Quantification (UQ26).
 - "Machine Learning for partial differential equations: solvers and operator learning", [Youssef Marzouk's group](https://uqgroup.mit.edu/), MIT, February 2026.
 - Talk and tutorial on operator learning, [Institute of Mathematical Statistics and Actuarial Science](https://www.imsv.unibe.ch/index_eng.html), University of Bern, hosted by [Prof. David Ginsbourger](https://ginsbourger.github.io/), January 2026 ([slides](https://github.com/MatthieuDarcy/OperatorLearningTutorial/blob/main/presentations/Research_presentation_berne.pdf), [tutorial](https://github.com/MatthieuDarcy/OperatorLearningTutorial/)).
-- "Machine Learning for partial differential equations: solvers and operator learning", [PLATON - INRIA and Polytechnique](https://www.inria.fr/en/platon).
+- "Machine Learning for partial differential equations: solvers and operator learning", [PLATON - INRIA and Polytechnique](https://www.inria.fr/en/platon), hosted by [Pietro Congedo](https://pietrocongedo.wixsite.com/monsite-1) and [Olivier Le Maître](https://olemaitre.perso.math.cnrs.fr/).
 
 #### 2025
 
